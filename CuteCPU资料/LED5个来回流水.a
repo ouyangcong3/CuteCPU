@@ -1,0 +1,69 @@
+QMOV  7,R0
+OUT   2,R0
+
+QMOV  15,R0
+
+QMOV  14,R0
+OUT   2,R0
+OUT   1,R0
+
+QMOV  15,R0
+
+QMOV  13,R0
+OUT   1,R0
+
+QMOV  15,R0
+QMOV  3,R0
+
+QMOV  11,R0
+OUT   1,R0
+
+QMOV  15,R0
+QMOV  6,R0
+
+QMOV  7,R0
+OUT   1,R0
+
+QMOV  15,R0
+QMOV  3,R0
+//////////////////////
+
+QMOV  11,R0
+OUT   1,R0
+
+QMOV  15,R0
+
+QMOV  13,R0
+OUT   1,R0
+
+QMOV  15,R0
+
+QMOV  14,R0
+OUT   1,R0
+
+QMOV  15,R0
+
+QMOV  15,R0
+OUT   1,R0
+
+
+QCLR   R3
+<     R0,R0
+GOTO 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1495008153 source:d:\casm\abc\casm.cpp
+	"CAsm.h"
+	<stdio.h>
+
+1495008007 d:\casm\abc\casm.h
+	<vector>
+	<iostream>
+	"qSTRING.h"
+
+1495002833 d:\casm\abc\qstring.h
+	<string>
+	<sstream>
+	<cctype>
+	<algorithm>
+	<vector>
+	<string.h>
+
+1495003077 source:d:\casm\abc\main.cpp
+	<iostream>
+	"CAsm.h"
+
+1495006690 source:d:\casm\abc\qstring.cpp
+	"qSTRING.h"
+

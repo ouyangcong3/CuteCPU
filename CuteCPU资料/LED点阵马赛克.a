@@ -1,0 +1,76 @@
+//#********(1)A0*********
+start:
+qMOV  7,R0
+out  2,R0
+
+qMOV  10,R0
+OUT  1,r0
+
+qMOV  0,R0
+OUT  2,R0
+//#********(2)59*********
+qMOV  7,R0
+OUT  2,R0
+
+qMOV  5,R0
+OUT  1,R0
+
+qMOV  9,R0
+OUT  2,R0
+//#********(3)A2*********
+qMOV  7,R0
+OUT  2,R0
+
+qMOV  10,R0
+OUT  1,R0
+
+qMOV  2,R0
+OUT  2,R0
+//#********(4)5B*********
+qMOV  7,R0
+OUT  2,R0
+
+qMOV  5,R0
+OUT  1,R0
+
+qMOV  11,R0
+OUT  2,R0
+//#********(5)A4*********
+qMOV  7,R0
+OUT  2,R0
+
+qMOV  10,R0
+OUT  1,R0
+
+qMOV  4,R0
+OUT  2,R0
+//#********(6)5D*********
+qMOV  7,R0
+OUT  2,R0
+
+qMOV  5,R0
+OUT  1,R0
+
+qMOV  13,R0
+OUT  2,R0
+//#********(7)A6*********
+qMOV  7,R0
+OUT  2,R0
+
+qMOV  10,R0
+OUT  1,R0
+
+qMOV  6,R0
+OUT  2,R0
+//#*****************
+< r0,r0
+GOTO start
+
+
+
+
+
+
+
+
+

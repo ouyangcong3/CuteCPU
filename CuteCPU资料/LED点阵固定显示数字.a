@@ -1,0 +1,909 @@
+//LED 5x7 matrix test code
+//write by qql
+
+start:
+QJMP  write4
+
+//***************************************************
+//***************************************************
+
+//********(0)*********
+display:
+QMOV  15,R3
+QMOV  15,R2
+//////////////
+QMOV  7,R0
+OUT  2,R0
+//////////////
+QMOV  0,R0        //
+RM    R0,R0
+OUT  1,R0
+//*****************
+QMOV  7,R0        //
+RM    R0,R0
+
+=     0,R0
+QGOTO  lt0
+QMOV  0,R0        //
+QJMP  lt0e
+lt0:
+QMOV  8,R0        //
+lt0e:
+OUT  2,R0
+nop
+nop
+nop
+nop
+nop
+nop
+
+//********(1)*********
+QMOV  15,R3
+QMOV  15,R2
+//////////////
+QMOV  7,R0
+OUT   2,R0
+//////////////
+QMOV  1,R0        //
+RM    R0,R0
+OUT  1,R0
+//*****************
+QMOV  8,R0        //
+RM    R0,R0
+
+=     0,R0
+QGOTO  lt1
+QMOV  1,R0        //
+QJMP  lt1e
+lt1:
+QMOV  9,R0        //
+lt1e:
+OUT  2,R0
+nop
+nop
+nop
+nop
+nop
+nop
+
+//********(2)*********
+QMOV  15,R3
+QMOV  15,R2
+//////////////
+QMOV  7,R0
+OUT   2,R0
+//////////////
+QMOV  2,R0        //
+RM    R0,R0
+OUT  1,R0
+//*****************
+QMOV  9,R0        //
+RM    R0,R0
+
+=     0,R0
+QGOTO  lt2
+QMOV  2,R0        //
+QJMP  lt2e
+lt2:
+QMOV  10,R0        //
+lt2e:
+OUT  2,R0
+nop
+nop
+nop
+nop
+nop
+nop
+
+//********(3)*********
+QMOV  15,R3
+QMOV  15,R2
+//////////////
+QMOV  7,R0
+OUT   2,R0
+//////////////
+QMOV  3,R0        //
+RM    R0,R0
+OUT  1,R0
+//*****************
+QMOV  10,R0        //
+RM    R0,R0
+
+=     0,R0
+QGOTO  lt3
+QMOV  3,R0        //
+QJMP  lt3e
+lt3:
+QMOV  11,R0        //
+lt3e:
+OUT  2,R0
+nop
+nop
+nop
+nop
+nop
+nop
+//********(4)*********
+QMOV  15,R3
+QMOV  15,R2
+//////////////
+QMOV  7,R0
+OUT   2,R0
+//////////////
+QMOV  4,R0        //
+RM    R0,R0
+OUT  1,R0
+//*****************
+QMOV  11,R0        //
+RM    R0,R0
+
+=     0,R0
+QGOTO  lt4
+QMOV  4,R0        //
+QJMP  lt4e
+lt4:
+QMOV  12,R0        //
+lt4e:
+OUT  2,R0
+nop
+nop
+nop
+nop
+nop
+nop
+//********(5)*********
+QMOV  15,R3
+QMOV  15,R2
+//////////////
+QMOV  7,R0
+OUT   2,R0
+//////////////
+QMOV  5,R0        //
+RM    R0,R0
+OUT  1,R0
+//*****************
+QMOV  12,R0        //
+RM    R0,R0
+
+=     0,R0
+QGOTO  lt5
+QMOV  5,R0        //
+QJMP  lt5e
+lt5:
+QMOV  13,R0        //
+lt5e:
+OUT  2,R0
+nop
+nop
+nop
+nop
+nop
+nop
+//********(6)*********
+QMOV  15,R3
+QMOV  15,R2
+//////////////
+QMOV  7,R0
+OUT   2,R0
+//////////////
+QMOV  6,R0        //
+RM    R0,R0
+OUT  1,R0
+//*****************
+QMOV  13,R0        //
+RM    R0,R0
+
+=     0,R0
+QGOTO  lt6
+QMOV  6,R0        //
+QJMP  lt6e
+lt6:
+QMOV  14,R0        //
+lt6e:
+OUT  2,R0
+
+QJMP display
+
+//***************************************************
+//***************************************************
+write0:
+QMOV  15,R3
+QMOV  15,R2
+
+QMOV  0,R1        //
+QMOV  14,R0       //
+WM    R1,R0
+
+QMOV  1,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  2,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  3,R1        //
+QMOV  9,R0       //
+WM    R1,R0
+
+QMOV  4,R1        //
+QMOV  5,R0       //
+WM    R1,R0
+
+QMOV  5,R1        //
+QMOV  3,R0       //
+WM    R1,R0
+
+QMOV  6,R1        //
+QMOV  14,R0       //
+WM    R1,R0
+
+QMOV  7,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+
+QMOV  8,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  9,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  10,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  11,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  12,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  13,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+QJMP display
+
+//*****************
+//*****************
+write1:
+QMOV  15,R3
+QMOV  15,R2
+
+QMOV  0,R1        //
+QMOV  2,R0       //
+WM    R1,R0
+
+QMOV  1,R1        //
+QMOV  2,R0       //
+WM    R1,R0
+
+QMOV  2,R1        //
+QMOV  2,R0       //
+WM    R1,R0
+
+QMOV  3,R1        //
+QMOV  2,R0       //
+WM    R1,R0
+
+QMOV  4,R1        //
+QMOV  10,R0       //
+WM    R1,R0
+
+QMOV  5,R1        //
+QMOV  6,R0       //
+WM    R1,R0
+
+QMOV  6,R1        //
+QMOV  2,R0       //
+WM    R1,R0
+
+QMOV  7,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+
+QMOV  8,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+
+QMOV  9,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+
+QMOV  10,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+
+QMOV  11,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+
+QMOV  12,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+
+QMOV  13,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+QJMP display
+
+//*****************
+//*****************
+write2:
+QMOV  15,R3
+QMOV  15,R2
+
+QMOV  0,R1        //
+QMOV  15,R0       //
+WM    R1,R0
+
+QMOV  1,R1        //
+QMOV  8,R0       //
+WM    R1,R0
+
+QMOV  2,R1        //
+QMOV  4,R0       //
+WM    R1,R0
+
+QMOV  3,R1        //
+QMOV  2,R0       //
+WM    R1,R0
+
+QMOV  4,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  5,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  6,R1        //
+QMOV  14,R0       //
+WM    R1,R0
+
+QMOV  7,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  8,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+
+QMOV  9,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+
+QMOV  10,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+
+QMOV  11,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+
+QMOV  12,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  13,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+QJMP display
+
+//*****************
+//*****************
+write3:
+QMOV  15,R3
+QMOV  15,R2
+
+QMOV  0,R1        //
+QMOV  14,R0       //
+WM    R1,R0
+
+QMOV  1,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  2,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  3,R1        //
+QMOV  6,R0       //
+WM    R1,R0
+
+QMOV  4,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  5,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  6,R1        //
+QMOV  14,R0       //
+WM    R1,R0
+
+QMOV  7,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+
+QMOV  8,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  9,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+
+QMOV  10,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+
+QMOV  11,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+
+QMOV  12,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  13,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+QJMP display
+
+//*****************
+//*****************
+write4:
+QMOV  15,R3
+QMOV  15,R2
+
+QMOV  0,R1        //
+QMOV  2,R0       //
+WM    R1,R0
+
+QMOV  1,R1        //
+QMOV  2,R0       //
+WM    R1,R0
+
+QMOV  2,R1        //
+QMOV  15,R0       //
+WM    R1,R0
+
+QMOV  3,R1        //
+QMOV  2,R0       //
+WM    R1,R0
+
+QMOV  4,R1        //
+QMOV  10,R0       //
+WM    R1,R0
+
+QMOV  5,R1        //
+QMOV  6,R0       //
+WM    R1,R0
+
+QMOV  6,R1        //
+QMOV  2,R0       //
+WM    R1,R0
+
+QMOV  7,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+
+QMOV  8,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+
+QMOV  9,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  10,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  11,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+
+QMOV  12,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+
+QMOV  13,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+QJMP display
+
+//*****************
+//*****************
+write5:
+QMOV  15,R3
+QMOV  15,R2
+
+QMOV  0,R1        //
+QMOV  14,R0       //
+WM    R1,R0
+
+QMOV  1,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  2,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  3,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  4,R1        //
+QMOV  14,R0       //
+WM    R1,R0
+
+QMOV  5,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+
+QMOV  6,R1        //
+QMOV  15,R0       //
+WM    R1,R0
+
+QMOV  7,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+
+QMOV  8,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  9,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+
+QMOV  10,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+
+QMOV  11,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  12,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  13,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+QJMP display
+
+//*****************
+//*****************
+write6:
+QMOV  15,R3
+QMOV  15,R2
+
+QMOV  0,R1        //
+QMOV  14,R0       //
+WM    R1,R0
+
+QMOV  1,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  2,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  3,R1        //
+QMOV  14,R0       //
+WM    R1,R0
+
+QMOV  4,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+
+QMOV  5,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  6,R1        //
+QMOV  14,R0       //
+WM    R1,R0
+
+QMOV  7,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+
+QMOV  8,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  9,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  10,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  11,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  12,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  13,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+QJMP display
+
+//*****************
+//*****************
+write7:
+QMOV  15,R3
+QMOV  15,R2
+
+QMOV  0,R1        //
+QMOV  8,R0       //
+WM    R1,R0
+
+QMOV  1,R1        //
+QMOV  8,R0       //
+WM    R1,R0
+
+QMOV  2,R1        //
+QMOV  8,R0       //
+WM    R1,R0
+
+QMOV  3,R1        //
+QMOV  4,R0       //
+WM    R1,R0
+
+QMOV  4,R1        //
+QMOV  2,R0       //
+WM    R1,R0
+
+QMOV  5,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  6,R1        //
+QMOV  15,R0       //
+WM    R1,R0
+
+QMOV  7,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+
+QMOV  8,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+
+QMOV  9,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+
+QMOV  10,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+
+QMOV  11,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+
+QMOV  12,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+
+QMOV  13,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+QJMP display
+
+//*****************
+//*****************
+write8:
+QMOV  15,R3
+QMOV  15,R2
+
+QMOV  0,R1        //
+QMOV  14,R0       //
+WM    R1,R0
+
+QMOV  1,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  2,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  3,R1        //
+QMOV  14,R0       //
+WM    R1,R0
+
+QMOV  4,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  5,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  6,R1        //
+QMOV  14,R0       //
+WM    R1,R0
+
+QMOV  7,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+
+QMOV  8,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  9,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  10,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+
+QMOV  11,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  12,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  13,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+QJMP display
+
+//*****************
+//*****************
+write9:
+QMOV  15,R3
+QMOV  15,R2
+
+QMOV  0,R1        //
+QMOV  14,R0       //
+WM    R1,R0
+
+QMOV  1,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  2,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  3,R1        //
+QMOV  15,R0       //
+WM    R1,R0
+
+QMOV  4,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  5,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  6,R1        //
+QMOV  14,R0       //
+WM    R1,R0
+
+QMOV  7,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+
+QMOV  8,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  9,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+
+QMOV  10,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+
+QMOV  11,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  12,R1        //
+QMOV  1,R0       //
+WM    R1,R0
+
+QMOV  13,R1        //
+QMOV  0,R0       //
+WM    R1,R0
+QJMP display
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

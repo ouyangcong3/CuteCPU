@@ -1,0 +1,356 @@
+# depslib dependency file v1.0
+1481553545 source:h:\qm\chart.cpp
+	<iostream>
+	"chart.h"
+	"VariableN.h"
+
+1330838743 h:\qm\chart.h
+	"VariableN.h"
+
+1332904230 h:\qm\variablen.h
+
+1481555033 source:h:\qm\variablen.cpp
+	<iostream>
+	"VariableN.h"
+
+1481555205 source:h:\qm\main.cpp
+	<iostream>
+	"VariableN.h"
+	"chart.h"
+
+1481733735 source:h:\qm-v10\chart.cpp
+	<iostream>
+	"chart.h"
+	"VariableN.h"
+
+1481725245 h:\qm-v10\chart.h
+	"VariableN.h"
+
+1332904230 h:\qm-v10\variablen.h
+
+1481719966 source:h:\qm-v10\variablen.cpp
+	<iostream>
+	"VariableN.h"
+
+1481733349 source:h:\qm-v10\main.cpp
+	<iostream>
+	"VariableN.h"
+	"chart.h"
+
+1481815939 source:h:\qm-v11\chart.cpp
+	<iostream>
+	"chart.h"
+	"VariableN.h"
+
+1481725245 h:\qm-v11\chart.h
+	"VariableN.h"
+
+1481819403 h:\qm-v11\variablen.h
+
+1481819386 source:h:\qm-v11\variablen.cpp
+	<iostream>
+	"VariableN.h"
+
+1481822456 source:h:\qm-v11\main.cpp
+	<iostream>
+	"VariableN.h"
+	"chart.h"
+
+1482058790 source:h:\qm-v12\chart.cpp
+	<iostream>
+	"chart.h"
+	"VariableN.h"
+
+1482043554 h:\qm-v12\chart.h
+	"VariableN.h"
+
+1482059180 h:\qm-v12\variablen.h
+
+1482057076 source:h:\qm-v12\variablen.cpp
+	<iostream>
+	"VariableN.h"
+
+1482063674 source:h:\qm-v12\main.cpp
+	<iostream>
+	"Minterm.h"
+	"Ztable.h"
+
+1482060106 h:\qm-v12\minterm.h
+
+1482061505 h:\qm-v12\ztable.h
+	"Minterm.h"
+
+1482061693 source:h:\qm-v12\minterm.cpp
+	<iostream>
+	"Minterm.h"
+
+1482061668 source:h:\qm-v12\ztable.cpp
+	<iostream>
+	"Ztable.h"
+
+1482076289 source:h:\qm-v13\minterm.cpp
+	<iostream>
+	"Minterm.h"
+
+1482076203 h:\qm-v13\minterm.h
+
+1482076418 source:h:\qm-v13\ztable.cpp
+	<iostream>
+	"Ztable.h"
+
+1482061505 h:\qm-v13\ztable.h
+	"Minterm.h"
+
+1482076223 source:h:\qm-v13\main.cpp
+	<iostream>
+	"Minterm.h"
+	"Ztable.h"
+
+1482082113 source:f:\qm-v14\main.cpp
+	<iostream>
+	"Minterm.h"
+	"Ztable.h"
+
+1482076203 f:\qm-v14\minterm.h
+
+1482061505 f:\qm-v14\ztable.h
+	"Minterm.h"
+
+1482111045 source:f:\qm-v14\minterm.cpp
+	<iostream>
+	"Minterm.h"
+
+1482115343 source:f:\qm-v14\ztable.cpp
+	<iostream>
+	"Ztable.h"
+
+1482115343 source:h:\qm-v15\ztable.cpp
+	<iostream>
+	"Ztable.h"
+
+1482061505 h:\qm-v15\ztable.h
+	"Minterm.h"
+
+1482252358 h:\qm-v15\minterm.h
+
+1482252326 source:h:\qm-v15\main.cpp
+	<iostream>
+	"Minterm.h"
+	"Ztable.h"
+
+1482252381 source:h:\qm-v20\minterm.cpp
+	<iostream>
+	"Minterm.h"
+
+1482252358 h:\qm-v20\minterm.h
+
+1482115343 source:h:\qm-v20\ztable.cpp
+	<iostream>
+	"Ztable.h"
+
+1482061505 h:\qm-v20\ztable.h
+	"Minterm.h"
+
+1482115343 source:h:\qm-v200\ztable.cpp
+	<iostream>
+	"Ztable.h"
+
+1482061505 h:\qm-v200\ztable.h
+	"Minterm.h"
+
+1482281028 h:\qm-v200\minterm.h
+
+1482338690 source:h:\qm-v200\minterm.cpp
+	<iostream>
+	"Minterm.h"
+
+1482341655 source:h:\qm-v200\main.cpp
+	<iostream>
+	"Minterm.h"
+	"Ztable.h"
+	"time.h"
+
+1482115343 source:h:\qm-v21\ztable.cpp
+	<iostream>
+	"Ztable.h"
+
+1482061505 h:\qm-v21\ztable.h
+	"Minterm.h"
+
+1482420215 h:\qm-v21\minterm.h
+
+1482420230 source:h:\qm-v21\minterm.cpp
+	<iostream>
+	"Minterm.h"
+
+1482420230 source:h:\qm-v30\minterm.cpp
+	<iostream>
+	"Minterm.h"
+
+1482420215 h:\qm-v30\minterm.h
+
+1482115343 source:h:\qm-v30\ztable.cpp
+	<iostream>
+	"Ztable.h"
+
+1482061505 h:\qm-v30\ztable.h
+	"Minterm.h"
+
+1482426425 source:h:\qm-v30\main.cpp
+	<iostream>
+	"Minterm.h"
+	"Ztable.h"
+	"time.h"
+
+1483183114 source:h:\qm-v302\main.cpp
+	<iostream>
+	"Minterm.h"
+	"Ztable.h"
+	"time.h"
+
+1482420215 h:\qm-v302\minterm.h
+
+1483182760 h:\qm-v302\ztable.h
+	"Minterm.h"
+
+1482420230 source:h:\qm-v302\minterm.cpp
+	<iostream>
+	"Minterm.h"
+
+1483183949 source:h:\qm-v302\ztable.cpp
+	<iostream>
+	"Ztable.h"
+
+1483183114 source:h:\qm-v303\main.cpp
+	<iostream>
+	"Minterm.h"
+	"Ztable.h"
+	"time.h"
+
+1482420215 h:\qm-v303\minterm.h
+
+1483188296 h:\qm-v303\ztable.h
+	"Minterm.h"
+
+1482420230 source:h:\qm-v303\minterm.cpp
+	<iostream>
+	"Minterm.h"
+
+1483189522 source:h:\qm-v303\ztable.cpp
+	<iostream>
+	"Ztable.h"
+
+1483189522 source:h:\qm-v305\ztable.cpp
+	<iostream>
+	"Ztable.h"
+
+1483188296 h:\qm-v305\ztable.h
+	"Minterm.h"
+
+1483203352 h:\qm-v305\minterm.h
+
+1483203513 source:h:\qm-v305\minterm.cpp
+	<iostream>
+	"Minterm.h"
+
+1483203352 source:h:\qm-v305\main.cpp
+	<iostream>
+	"Minterm.h"
+	"Ztable.h"
+	"time.h"
+
+1483277059 source:h:\qm-v306\main.cpp
+	<iostream>
+	"Minterm.h"
+	"Ztable.h"
+	"time.h"
+
+1483278915 h:\qm-v306\minterm.h
+
+1483270549 h:\qm-v306\ztable.h
+	"Minterm.h"
+
+1483203513 source:h:\qm-v306\minterm.cpp
+	<iostream>
+	"Minterm.h"
+
+1483277728 source:h:\qm-v306\ztable.cpp
+	<iostream>
+	"Ztable.h"
+
+1483287006 source:h:\qm-v307测试了网上例子\main.cpp
+	<iostream>
+	"Minterm.h"
+	"Ztable.h"
+	"time.h"
+
+1483278915 h:\qm-v307测试了网上例子\minterm.h
+
+1483270549 h:\qm-v307测试了网上例子\ztable.h
+	"Minterm.h"
+
+1483203513 source:h:\qm-v307测试了网上例子\minterm.cpp
+	<iostream>
+	"Minterm.h"
+
+1483280677 source:h:\qm-v307测试了网上例子\ztable.cpp
+	<iostream>
+	"Ztable.h"
+
+1483355790 source:h:\qm-v308测试了网上例子\main.cpp
+	<iostream>
+	"Minterm.h"
+	"Ztable.h"
+	"time.h"
+
+1483278915 h:\qm-v308测试了网上例子\minterm.h
+
+1483270549 h:\qm-v308测试了网上例子\ztable.h
+	"Minterm.h"
+
+1483203513 source:h:\qm-v308测试了网上例子\minterm.cpp
+	<iostream>
+	"Minterm.h"
+
+1483280677 source:h:\qm-v308测试了网上例子\ztable.cpp
+	<iostream>
+	"Ztable.h"
+
+1483203513 source:h:\qm-v309加入门成本\minterm.cpp
+	<iostream>
+	"Minterm.h"
+
+1483411696 h:\qm-v309加入门成本\minterm.h
+
+1483413149 source:h:\qm-v309加入门成本\ztable.cpp
+	<iostream>
+	"Ztable.h"
+
+1483270549 h:\qm-v309加入门成本\ztable.h
+	"Minterm.h"
+
+1483412995 source:h:\qm-v309加入门成本\main.cpp
+	<iostream>
+	"Minterm.h"
+	"Ztable.h"
+	"time.h"
+
+1495630539 source:h:\qm逻辑函数化简\main.cpp
+	<iostream>
+	"Minterm.h"
+	"Ztable.h"
+	"time.h"
+
+1495630435 h:\qm逻辑函数化简\minterm.h
+
+1495630451 h:\qm逻辑函数化简\ztable.h
+	"Minterm.h"
+
+1495630429 source:h:\qm逻辑函数化简\minterm.cpp
+	<iostream>
+	"Minterm.h"
+
+1495630443 source:h:\qm逻辑函数化简\ztable.cpp
+	<iostream>
+	"Ztable.h"
+
